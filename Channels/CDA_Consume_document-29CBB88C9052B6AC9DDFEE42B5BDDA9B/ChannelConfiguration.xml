@@ -1,14 +1,14 @@
 <channel
    name="CDA: Consume document"
    guid="29CBB88C9052B6AC9DDFEE42B5BDDA9B"
-   description="This example shows how to use the builtin xml.parse{} function to parse and consume a CDA document.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/parse-and-serialize-a-cda"
+   description="This example shows how to use the builtin xml.parse{} function to parse and consume a CDA document.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/consume-a-cda"
    start_automatically="false"
    logging_level="1"
    use_message_filter="false">
    <to_mapper
       guid="CDA_Consume_document-To-S2yoMMYDyDyrNO"
-      commit_id="8ccdce65335e72dd9b35fee5dcaab989996911b6"
-      commit_comment="Import Translators: asdf">
+      commit_id="487f8049f2f37f1744471ee1c6612eb8bde4b9ab"
+      commit_comment="update module to single func return">
    </to_mapper>
    <from_channel/>
 </channel>

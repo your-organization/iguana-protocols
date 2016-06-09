@@ -5,10 +5,10 @@
 -- and we parse a little bit of data from it - the list of problems that poor
 -- Isabella Jones has.
 
--- See http://help.interfaceware.com/api/#xml
--- and http://help.interfaceware.com/v6/parse-and-serialize-a-cda
+-- http://help.interfaceware.com/v6/consume-a-cda
+-- http://help.interfaceware.com/api/#xml
 
-require 'problems'
+local ProcessProblems = require 'problems'
 
 function main(Data)
    -- parse CDA (XML) into an XML node tree

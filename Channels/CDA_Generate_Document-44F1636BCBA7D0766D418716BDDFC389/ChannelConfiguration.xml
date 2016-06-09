@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="CDA_-_Generate_Document-FromHTTP-SuFKAI60Vjrbf9"
-      commit_id="168cd8e8ec5aa621f2ba2ec75caefa96d9f6a1dd"
-      commit_comment="Import Translators: asdf"
+      commit_id="5503156e9151e1578d27f7db9bf7fe2a3d5e845c"
+      commit_comment="help updated"
       mapper_url_path="comprehensive-CDA"/>
    <message_filter
       filter_after_logging="false"

@@ -10,7 +10,7 @@ local function ParseProblem(X)
 end
 
 
-function ProcessProblems(X)
+local function ProcessProblems(X)
    for i=1, X:childCount("component") do
       local C = X:child("component", i)
       if C.section.code.code:S() == '11450-4' then
@@ -18,3 +18,5 @@ function ProcessProblems(X)
       end
    end
 end
+
+return ProcessProblems

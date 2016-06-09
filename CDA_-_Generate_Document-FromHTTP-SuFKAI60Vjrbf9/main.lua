@@ -32,7 +32,7 @@ require 'fillvitalsigns'
 
 local addElement = node.addElement
 
-function main(Data)   
+function main(Data)  
    local Doc = cda.new()
    local CD = Doc.ClinicalDocument   
    -- CDA Header 
@@ -104,6 +104,7 @@ function main(Data)
       local f = io.open('cda_xml.xml','w+')
       f:write(tostring(Doc))
       f:close()
+      
       -- formatted with xsl stylesheet
       f = io.open('cda_web.xml','w+')
       f:write('<?xml-stylesheet type="text/xsl" href="WebViewLayout_CDA.xsl"?>\n')
