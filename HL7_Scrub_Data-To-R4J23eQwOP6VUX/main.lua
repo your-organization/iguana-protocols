@@ -1,10 +1,15 @@
+-- This example channel shows how to use the hl7.scrub
+-- module to remove confidential data in an HL7 message
+
 -- See  http://help.interfaceware.com/v6/hl7-scrub
 
+-- Insert function into the hl7 namespace
 hl7.scrub = require 'hl7.scrub'
-RehydrateData = require 'RehydrateData'
+
+local RehydrateData = require 'RehydrateData'
 
 function main(Original)
-   -- Step 1
+hl7.scrub(   -- Step 1
    -- Open the data in a dialog
    trace(Data)
    local Scrubbed = hl7.scrub(Original)

@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="X12_Parsing_and_Generation-To-iaionvL8XmBgpi"
-      commit_id="67c0af50755a7916e80c6f9ee529d2951f2806ce"
-      commit_comment="Import Translators: asdf">
+      commit_id="a608866231d410f2ed2ce615f02e28881b1497a9"
+      commit_comment="help etc">
    </to_mapper>
    <from_channel/>
 </channel>

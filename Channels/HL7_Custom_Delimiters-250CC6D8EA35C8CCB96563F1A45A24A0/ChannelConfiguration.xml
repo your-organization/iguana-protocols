@@ -45,7 +45,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="HL7_Custom_Delimiters-Filter-Q1enCQWiqVIkzI"
-      translator_commit_id="21f8ee204a36efee0b46666bfe2982f86bf71748"
-      translator_commit_comment="Import Translators: adsf">
+      translator_commit_id="5d87d2127b09382a996a34546231cd1a1f53523b"
+      translator_commit_comment="help finished">
    </message_filter>
 </channel>

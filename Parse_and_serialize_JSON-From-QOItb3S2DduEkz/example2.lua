@@ -24,13 +24,17 @@ local Data = [[{
 }
 ]]
 
-function Example2()
+local function Example2()
    -- And using more complex sample JSON object
    trace(Data)
+
    -- parse the JSON data into a Lua table
    local J = json.parse{data=Data}
    trace(J)
+
    -- serialize the Lua table into JSON
    local Data2 = json.serialize{data=J}
    trace(Data2)
 end
+
+return Example2

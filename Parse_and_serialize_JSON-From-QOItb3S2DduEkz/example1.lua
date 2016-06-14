@@ -1,4 +1,4 @@
-function Example1()
+local function Example1()
    -- sample JSON object and array strings
    local JObject = "{'int_test': 1.23, 'string_test':'a', 'boolean_test' : true}"
    local JArray = '["hello",1,1,321323,23,23,23,5423,23,"world",true,false]'
@@ -16,3 +16,5 @@ function Example1()
    trace(JObject)
    trace(JArray)
 end
+
+return Example1

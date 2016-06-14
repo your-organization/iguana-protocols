@@ -1,5 +1,3 @@
--- Please read http://help.interfaceware.com/v6/x12-generate-ta1-ack 
---
 -- This example goes through the process of generating an X12 ACKnowledgement which in X12 jargon
 -- is called a TA1 Acknowledgement.
 
@@ -19,6 +17,8 @@
 
 -- Use of TA1 is subject to trading partner agreement and is neither mandated or prohibited or limited by test cases 
 -- suggested in this example.
+
+-- http://help.interfaceware.com/v6/x12-generate-ta1-ack 
 
 local x12ack  = require 'x12.ack.generate'
 

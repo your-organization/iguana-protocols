@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Parse_and_serialize_JSON-From-QOItb3S2DduEkz"
-      commit_id="49ec5a216b7bc1f9e9387f5e56cd57961a400704"
-      commit_comment="Import Translators: asdf"
+      commit_id="2eb1fb7a70f257888517d98526eee00de67562d3"
+      commit_comment="fixed globals"
       poll_time="10000">
    </from_mapper>
 </channel>

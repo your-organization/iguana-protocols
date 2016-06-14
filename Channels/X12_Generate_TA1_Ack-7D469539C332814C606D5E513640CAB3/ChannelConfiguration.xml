@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="X12_Generate_TA1_Ack-To-doFvpkwYziDpQP"
-      commit_id="67c0af50755a7916e80c6f9ee529d2951f2806ce"
-      commit_comment="Import Translators: asdf">
+      commit_id="a2e83568b83bbc9eecbdb6c8269a322b84071991"
+      commit_comment="changed functions to local">
    </to_mapper>
    <from_channel/>
 </channel>

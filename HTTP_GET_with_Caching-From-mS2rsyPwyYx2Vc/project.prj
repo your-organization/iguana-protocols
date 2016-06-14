@@ -1,8 +1,9 @@
 {
-    "LocalDependencies": [
-        "problems.lua"
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "net.http.getCached",
+        "store2"
     ],
-    "LuaDependencies": [],
     "OtherDependencies": [],
     "timestamp": "1465926143",
     "version_info": {

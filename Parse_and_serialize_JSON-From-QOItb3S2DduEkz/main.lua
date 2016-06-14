@@ -6,9 +6,9 @@
 -- http://help.interfaceware.com/v6/parse-and-serialize-json
 -- http://help.interfaceware.com/api/#json
 
-require 'example1'
-require 'example2'
-require 'example3'
+local Example1 = require 'example1'
+local Example2 = require 'example2'
+local Example3 = require 'example3'
 
 function main()
    Example1()

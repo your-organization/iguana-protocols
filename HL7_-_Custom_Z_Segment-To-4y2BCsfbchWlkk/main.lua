@@ -3,9 +3,11 @@
 -- This module is useful if you'd like to be able to parse Z segments
 -- without going through the trouble of editing a VMD file
 
--- http://help.interfaceware.com/v6/z-segment-parser
+-- http://help.interfaceware.com/v6/hl7-custom-zsegment
 
-require 'hl7.zsegment'
+-- Insert function into the hl7 namespace
+hl7.zsegment = {}
+hl7.zsegment.parse = require 'hl7.zsegment'
 
 local Xml=[[
 <Kin firstName='' lastName=''/>

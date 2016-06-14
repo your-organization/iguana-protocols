@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="XML_Techniques-To-hgtOp7Bk6TU5DW"
-      commit_id="5dd767ffb31023ce708fa22c5c654e2fa4c334a3"
-      commit_comment="updated help and comments">
+      commit_id="23226cb42ef0b3eeb131b1c4561b85dfc0d49e46"
+      commit_comment="update help only">
    </to_mapper>
    <from_channel/>
 </channel>
