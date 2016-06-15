@@ -7,7 +7,6 @@ local ran = {}
 ran.RandomMessage = require 'ran'
       
 function main()
-   ran.RandomMessage(
    -- Push the ADT message through to destination
    -- Press 'RandomMessage' on right to navigate
    -- through code

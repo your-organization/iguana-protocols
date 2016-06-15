@@ -32,8 +32,8 @@
    </to_llp_client>
    <from_mapper
       guid="HL7_Random_Message_Generator-From-shW8hI2znWUshA"
-      commit_id="44b2544ff5752dcc3e53bb6172a433a8d54fe52f"
-      commit_comment="help"
+      commit_id="6241c5595a877dd455e30ae673ceb64f69a063cd"
+      commit_comment="deleted test code"
       poll_time="10000">
    </from_mapper>
 </channel>
