@@ -1,7 +1,7 @@
 <channel
    name="HL7: Split up batch file"
    guid="60709BA899AEE9CA3E4FEAC3AAAD78AD"
-   description="This example shows a simple module for reading in a batch of HL7 messages.&#xD;&#xA;&#xD;&#xA;It ignores the file and batch header segments and collects up the messages.&#xD;&#xA;"
+   description="This example shows a simple module for reading in a batch of HL7 messages.&#xD;&#xA;&#xD;&#xA;It ignores the file and batch header segments and collects up the messages.&#xD;&#xA;&#xD;&#xA;-- http://help.interfaceware.com/v6/hl7-split-up-batch-file&#xD;&#xA;"
    start_automatically="false"
    logging_level="1"
    use_message_filter="false">
@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="HL7_Split_up_batch_file-From-fskh5HCsVSfS2q"
-      commit_id="7c6bf2352b39aed0022881363cb979470defaa3a"
-      commit_comment="comments"
+      commit_id="d84c71ab07ff3e9cdd2a740a8c664578c73d2429"
+      commit_comment="ewrewrewr"
       poll_time="10000">
    </from_mapper>
    <message_filter
